@@ -1,4 +1,4 @@
 # reedsolomon
 
-npm install -g browserify
-npm install npm install --ignore-scripts @ronomon/reed-solomon
+npm install -g browserify  
+npm install --ignore-scripts @ronomon/reed-solomon
