@@ -144,7 +144,6 @@ rsdecode = function(encoded_buffer, options, callback){
       if(error) throw error;
       var decodedBlob = new Blob([buffer]);
       decodedBlob = decodedBlob.slice(0,fileSize);
-      console.log(decodedBlob.size)
       callback(decodedBlob);
     }
   )
